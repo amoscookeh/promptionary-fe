@@ -1,0 +1,3 @@
+.pencilCursorHover:hover {
+    cursor: url(../public/pencil-cursor.svg), auto;
+}

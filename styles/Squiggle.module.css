@@ -1,0 +1,25 @@
+@keyframes squigglevision {
+    0% {
+        filter: url("#squiggly-1");
+    }
+    25% {
+        filter: url("#squiggly-2");
+    }
+    50% {
+        filter: url("#squiggly-3");
+    }
+    75% {
+        filter: url("#squiggly-4");
+    }
+    100% {
+        filter: url("#squiggly-5");
+    }
+}
+
+.squiggle {
+    animation: squigglevision 0.4s infinite alternate;
+}
+
+.squiggleHover:hover {
+    animation: squigglevision 0.4s infinite alternate;
+}
